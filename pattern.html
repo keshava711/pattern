@@ -1,0 +1,80 @@
+<html>
+    <head><title>forms</title></head>
+    <body>
+        <form action="./text.html"> 
+            <pre>
+            <fieldset>
+            <legend>Register here</legend>
+            <h2>I want to join in 10kcoders &#128682; and i want to become a Developer &#128187;</h2>
+            <center>
+            <div style="background-color: rgb(27, 188, 220);">
+            <label for="Name">Name:--</label>
+            <input type="text" placeholder="FullName" id="Name" required pattern="[a-zA-Z0-9]{4,9}"/>
+            </div>
+            <div style="background-color: rgb(180, 122, 255);">
+            <label for="pswd">Enter password:--</label>
+            <input type="password" placeholder="password" id="pswd" required pattern="[a-zA-Z0-9@&$#]{4,7}"/>
+            </div>
+            <div style="background-color: lawngreen;">
+            <label for="Email">Email:--</label>
+            <input type="email" placeholder="Email" id="Email" required pattern="[a-zA-Z0-9]+@[a-z]+\.[a-z]{,}"/>
+            </div>
+
+            <div style="background-color: lightgreen;">
+            <label for="select">Select Food:--</label>
+            <select id="select" style="width: 170px;" required>
+                <option value="">choose from below</option>
+                <option value="1">chicken Biryani</option>
+                <option value="2">EGG Rice</option>
+                <option value="3">Mutton Biryali</option>
+                <option value="4" disabled>Curd Rice</option>
+                <option value="4">Tomota Rice</option>
+
+            </select>
+            </div>
+
+            <div style="background-color: lightgoldenrodyellow;">
+            <select id="year" style="width: 170px;" required>
+                <option value=""></option>
+                <option value="1">10.30-12.00</option>
+                <hr>
+                <option value="2">12.30-2.00</option>
+                <hr>
+                <option value="3" disabled>2.300-4.00</option>
+                <hr>
+                <option value="4" disabled>4.30-6.00</option>
+            </select>
+            </div>
+
+            
+            <div style="background-color: rgb(113, 170, 14);">
+            <label for="files"></label>
+            <input type="file" id="files" multiple>
+            </div>
+            <div style="background-color: rgb(233, 149, 15);">
+            <label for="radio">Male</label>
+            <input type="radio" id="radio" required>
+
+            <label for="radio">Female</label>
+            <input type="radio" id="radio" required>
+            </div>
+
+            <div style="background-color: rgb(222, 87, 130);;">
+            <label for="check"></label>
+            <input type="checkbox" id="check" required>i agree to <a href="">terms</a> and <a href="">conditions</a>
+            </div>
+
+            <textarea rows="4" cols="55"> </textarea>  
+
+            <input type="submit">
+
+            </center>
+            </pre>
+            </fieldset>
+
+        </form>
+    </body>
+
+
+
+</html>
